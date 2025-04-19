@@ -1,9 +1,16 @@
 {
-  "$schema":  "https://raw.githubusercontent.com/jetify-com/devbox/0.14.2/.schema/devbox.schema.json",
-  "packages": ["gh@latest"],
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.14.2/.schema/devbox.schema.json",
+  "packages": [
+    "gh@2.69.0",
+    "pnpm@10.8.0",
+    "nodejs@22.14.0",
+    "uv@0.6.14",
+    "lefthook@1.11.5"
+  ],
   "shell": {
     "init_hook": [
-      "echo 'Welcome to devbox!' > /dev/null"
+      "echo 'Welcome to devbox!' > /dev/null",
+      "lefthook install"
     ],
     "scripts": {
       "test": [
