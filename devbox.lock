@@ -49,6 +49,54 @@
         }
       }
     },
+    "commitlint@19.8.0": {
+      "last_modified": "2025-03-23T05:31:05Z",
+      "resolved": "github:NixOS/nixpkgs/dd613136ee91f67e5dba3f3f41ac99ae89c5406b#commitlint",
+      "source": "devbox-search",
+      "version": "19.8.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/rijm4y0iwqxwpxf9qs2mflg25rlka1qp-_at_commitlint_slash_cli-19.8.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/rijm4y0iwqxwpxf9qs2mflg25rlka1qp-_at_commitlint_slash_cli-19.8.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/yrqs26ca1jl4zchqzdf4mcxq1ph7i16y-_at_commitlint_slash_cli-19.8.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/yrqs26ca1jl4zchqzdf4mcxq1ph7i16y-_at_commitlint_slash_cli-19.8.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/isvcsws92v0r43qd58837bad38400nhd-_at_commitlint_slash_cli-19.8.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/isvcsws92v0r43qd58837bad38400nhd-_at_commitlint_slash_cli-19.8.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/5abz4l2ra5qwwnm58cxw2dk6glxlhacr-_at_commitlint_slash_cli-19.8.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/5abz4l2ra5qwwnm58cxw2dk6glxlhacr-_at_commitlint_slash_cli-19.8.0"
+        }
+      }
+    },
     "gh@2.69.0": {
       "last_modified": "2025-04-08T07:10:31Z",
       "resolved": "github:NixOS/nixpkgs/b2b0718004cc9a5bca610326de0a82e6ea75920b#gh",
